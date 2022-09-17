@@ -1,9 +1,68 @@
-/* =================
-  WRITE YOUR CSS HERE.
-  Check the ⌄ for help with formatting and validating your code.
-  You must write some CSS to complete this challenge.
-   ===================
-*/
+* {
+  margin: 0;
+  padding: 0;
+  }
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #14141f;
+  margin: .2rem;
+  padding: 1rem;
+}
+.welcome-section{
+  Background: #eeeee4;
+  padding: 1rem;
+  margin: .2rem;
+  text-align: center;
+}
+h2{
+  background: #eeeee4;
+  text-align: center; 
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 49%;
+  padding: 5px;
+}
+.Coding-instruction{
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0rem;
+  background: #eeeee4;
+}
+.iframe{
+  padding: 1rem;
+  margin: 0rem;
+  text-align: center;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: brown;
+}
+.old-mahendra-balal{
+  object-position: left top;
+}
+.my-mom{
+  object-postion: bottmm left;
+}
 html,
 body {
   margin: 0;
