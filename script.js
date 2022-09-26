@@ -1,17 +1,30 @@
-var website, link;
+var images;
 
 
-website = ['Amazon', 'Ebay', 'Littlewoods', 'Debenhams'];
-link = ['https://www.amazon.co.uk/', 'https://www.ebay.co.uk/', 'https://www.littlewoods.com/', 'https://www.debenhams.com/'];
-while (!!website.length) {
-  if(--window.LoopTrap <= 0) throw "Infinite loop.";
-  let element_list = document.getElementById('list');
-  let new_li = document.createElement('li');
-  let new_a = document.createElement('a');
-  new_a.setAttribute("href", link.shift());
-  new_a.innerText = website.shift();
+images = ['https://images.unsplash.com/photo-1604537466158-719b1972feb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80', 'https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80', 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80', 'https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'];
 
-  new_li.appendChild(new_a);
+let element_pics = document.getElementById('pics');
+images.push(images[0]);
+element_pics.setAttribute("src", images.shift());
 
-  element_list.appendChild(new_li);
-}
+
+document.getElementById('previous').addEventListener('click', (event) => {
+  let element_pics2 = document.getElementById('pics');
+  images.unshift(images.slice(-1)[0]);
+  element_pics2.setAttribute("src", images.pop());
+
+});
+
+document.getElementById('previous').addEventListener('click', (event) => {
+  let element_pics3 = document.getElementById('pics');
+  images.unshift(images.slice(-1)[0]);
+  element_pics3.setAttribute("src", images.shift());
+
+});
+
+document.getElementById('next').addEventListener('click', (event) => {
+  let element_pics4 = document.getElementById('pics');
+  images.push(images[0]);
+  element_pics4.setAttribute("src", images.shift());
+
+});
