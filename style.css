@@ -46,7 +46,9 @@ h2{
 li {
   float: left;
 }
-
+.gallery{
+  Background: brown;
+}
 li a {
   display: block;
   color: white;
