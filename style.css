@@ -68,6 +68,9 @@ body {
   margin: 0;
   height: 100%;
 }
+.c-site-footer{
+  Background-color: black;
+}
 
 /* don't edit this */
 .jest-lite-report__status--pass {
