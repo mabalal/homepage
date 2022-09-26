@@ -69,7 +69,8 @@ body {
   height: 100%;
 }
 .c-site-footer {
-  background-color: brown;
+  background-color: black;
+  text: white;
 }
 
 /* don't edit this */
