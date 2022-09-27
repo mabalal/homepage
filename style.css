@@ -60,7 +60,8 @@ li a:hover {
   background-color: brown;
 }
 .fox{
-  border: 10px
+  border: 10px;
+  background: brown;
 }
 .old-mahendra-balal{
   object-position: left top;
