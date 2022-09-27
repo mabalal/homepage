@@ -35,7 +35,7 @@ h2{
 .Coding-instruction{
   text-align: center;
   padding: 1.5rem;
-  margin: 0rem;
+  margin: 1rem;
   background: #eeeee4;
 }
 .iframe{
@@ -62,7 +62,8 @@ li a:hover {
 .fox{
   border: 10px;
   background: #eeeee4;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 .comment{
   padding:8px;
@@ -70,6 +71,7 @@ li a:hover {
   border: 5px;
   text-align: center;
   display: block;
+  margin: 10px;
 }
 .old-mahendra-balal{
   object-position: left top;
