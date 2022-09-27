@@ -59,6 +59,9 @@ li a {
 li a:hover {
   background-color: brown;
 }
+.fox{
+  border: 10px
+}
 .old-mahendra-balal{
   object-position: left top;
 }
