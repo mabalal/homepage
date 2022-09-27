@@ -61,12 +61,12 @@ li a:hover {
 }
 .fox{
   border: 10px;
-  background: #F0FFFF;
+  background: #eeeee4;
   padding: 20px;
 }
 .comment{
   padding:8px;
-  background: #F0FFFF;
+  background: #eeeee4;
   border: 5px;
   text-align: center;
   display: block;
