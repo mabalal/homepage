@@ -64,6 +64,13 @@ li a:hover {
   background: #F0FFFF;
   padding: 20px;
 }
+.comment{
+  padding:8px;
+  background: #F0FFFF;
+  border: 5px;
+  text-align: center;
+  display: block;
+}
 .old-mahendra-balal{
   object-position: left top;
 }
