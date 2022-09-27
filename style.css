@@ -63,7 +63,7 @@ li a:hover {
   border: 10px;
   background: #eeeee4;
   padding: 10px;
-  margin: 10px;
+  margin: .2rem;
 }
 .comment{
   padding:8px;
@@ -71,7 +71,7 @@ li a:hover {
   border: 5px;
   text-align: center;
   display: block;
-  margin: 10px;
+  margin: .2rem;
 }
 .old-mahendra-balal{
   object-position: left top;
