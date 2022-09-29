@@ -76,6 +76,18 @@ li a:hover {
   margin: .2rem;
 } 
 
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
 html,
 body {
   margin: 0;
