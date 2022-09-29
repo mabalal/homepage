@@ -17,8 +17,6 @@ document.getElementById('next').addEventListener('click', (event) => {
   pagenom.push(pagenom[0]);
   element_pagenom.innerText = pagenom.shift();
 
-});
-
 
 
 
