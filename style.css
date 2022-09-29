@@ -75,21 +75,6 @@ li a:hover {
   display: block;
   margin: .2rem;
 } 
-html {
-  background: #bbc3c6;
-  font: 62.5%/1.5em "Trebuchet Ms", helvetica;
-}
-
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-
-@font-face {
-    font-family: 'Shopper';
-    src: url('http://www.shopperfont.com/font/Shopper-Std.ttf');
-}
 
 .shopper {
   text-transform: lowercase;
