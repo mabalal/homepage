@@ -75,7 +75,13 @@ li a:hover {
   display: block;
   margin: .2rem;
 } 
-
+.comment-box{
+  padding: 10px
+}
+.button{
+  padding: 5px
+  text-align: center;
+  }
 .show-cart li {
   display: flex;
 }
