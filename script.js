@@ -49,3 +49,10 @@ document.getElementById('next').addEventListener('click', (event) => {
   element_pics4.setAttribute("src", images.shift());
 
 });
+
+
+document.getElementById('button').addEventListener('click', (event) => {
+  let element_submitmessage = document.getElementById('submitmessage');
+  element_submitmessage.innerText = 'Sent';
+
+});
