@@ -97,7 +97,10 @@ li a:hover {
 }
 .button3{
   text-align: center;
-
+}
+.pics{
+  text-align: center;
+}
 html,
 body {
   margin: 0%;
